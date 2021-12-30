@@ -1,0 +1,24 @@
+{
+	"name": "Output_OnetoOneCopyData",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Output_OnetoOneCopyData_LS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Testing.txt",
+				"folderPath": "Input",
+				"container": "learningdata"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
