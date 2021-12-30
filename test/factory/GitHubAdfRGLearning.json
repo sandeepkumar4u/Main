@@ -1,0 +1,9 @@
+{
+	"name": "GitHubAdfRGLearning",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "41b4df42-16b9-4c65-a675-71c1210f7f92",
+		"tenantId": "64799d06-240c-4c9b-9616-c0a4c54feea7"
+	}
+}
