@@ -1,0 +1,7 @@
+2:29 PM 12/30/2021
+SELECT ASLOBCode , ASLOBDesc, SourceSystemDateCreated, SourceSystemDateModified,StartDate,ASLOBKey
+ FROM YodilIDS_Staging_Seneca.Policy.ASLineOfBusiness WITH(NOLOCK) WHERE ASLOBCode ='120' 
+
+SELECT  ASLOBCode , ASLOBDesc, SourceSystemDateCreated, SourceSystemDateModified,StartDate,ASLOBId 
+FROM YodilIDS_Warehouse.Policy.ASLineOfBusiness  WITH(NOLOCK) WHERE ASLOBCode LIKE 'SEN||120' 
+
