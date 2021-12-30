@@ -2,7 +2,7 @@
 	"name": "OnetoOneCopyData_LS",
 	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
-		"description": "OnetoOneCopyData_LS",
+		"description": "for Input data OnetoOneCopyData_LS",
 		"annotations": [],
 		"type": "AzureBlobStorage",
 		"typeProperties": {
