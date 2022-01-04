@@ -1,0 +1,11 @@
+{
+	"name": "KV_SandeepMalik4u",
+	"properties": {
+		"description": "KV_SandeepMalik4u",
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://KV-SandeepMalik.vault.azure.net/"
+		}
+	}
+}
